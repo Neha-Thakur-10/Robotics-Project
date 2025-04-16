@@ -1,0 +1,23 @@
+[5.961s] Invoking command in '/home/neha/gitjazzy/src/mogi_trajectory_server': PYTHONPATH=/home/neha/gitjazzy/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/neha/gitjazzy/build/mogi_trajectory_server/build install --record /home/neha/gitjazzy/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[7.338s] running egg_info
+[7.452s] writing ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/PKG-INFO
+[7.455s] writing dependency_links to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/dependency_links.txt
+[7.457s] writing entry points to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/entry_points.txt
+[7.458s] writing requirements to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/requires.txt
+[7.464s] writing top-level names to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/top_level.txt
+[7.630s] reading manifest file '../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[7.631s] adding license file 'LICENSE'
+[7.633s] writing manifest file '../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[7.635s] running build
+[7.636s] running build_py
+[7.636s] running install
+[7.655s] running install_lib
+[7.782s] running install_data
+[7.782s] running install_egg_info
+[7.945s] removing '/home/neha/gitjazzy/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server-1.0.0-py3.12.egg-info' (and everything under it)
+[7.955s] Copying ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info to /home/neha/gitjazzy/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server-1.0.0-py3.12.egg-info
+[7.965s] running install_scripts
+[8.906s] Installing mogi_trajectory_server script to /home/neha/gitjazzy/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[8.907s] Installing mogi_trajectory_server_topic_based script to /home/neha/gitjazzy/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[8.909s] writing list of installed files to '/home/neha/gitjazzy/build/mogi_trajectory_server/install.log'
+[9.073s] Invoked command in '/home/neha/gitjazzy/src/mogi_trajectory_server' returned '0': PYTHONPATH=/home/neha/gitjazzy/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/neha/gitjazzy/build/mogi_trajectory_server/build install --record /home/neha/gitjazzy/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data

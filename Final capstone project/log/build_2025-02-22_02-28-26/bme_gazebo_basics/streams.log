@@ -1,0 +1,51 @@
+[0.068s] Invoking command in '/home/neha/gitjazzy/build/bme_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/src/install/bme_ros2_navigation_py:/home/neha/gitjazzy/src/install/bme_gazebo_sensors_py:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_basics -- -j8 -l8
+[1.030s] Invoked command in '/home/neha/gitjazzy/build/bme_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/src/install/bme_ros2_navigation_py:/home/neha/gitjazzy/src/install/bme_gazebo_sensors_py:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_basics -- -j8 -l8
+[1.048s] Invoking command in '/home/neha/gitjazzy/build/bme_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/src/install/bme_ros2_navigation_py:/home/neha/gitjazzy/src/install/bme_gazebo_sensors_py:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_gazebo_basics
+[1.065s] -- Install configuration: ""
+[1.065s] -- Execute custom install script
+[1.073s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/launch/check_urdf.launch.py
+[1.074s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/launch/spawn_robot.launch.py
+[1.074s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/launch/spawn_robot2.launch.py
+[1.074s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/launch/world.launch.py
+[1.075s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/empty.sdf
+[1.075s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/world.sdf
+[1.076s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz/rviz.rviz
+[1.076s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz/urdf.rviz
+[1.076s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/demo.urdf
+[1.077s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/dimension.urdf
+[1.078s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/materials.xacro
+[1.078s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot.gazebo
+[1.079s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot.urdf
+[1.079s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot2.urdf
+[1.080s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot_mecanum.gazebo
+[1.080s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot_mecanum.urdf
+[1.080s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot_skid_steer.gazebo
+[1.081s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot_skid_steer.urdf
+[1.082s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mecanum_wheel_left.STL
+[1.082s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mecanum_wheel_right.STL
+[1.082s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.SLDPRT
+[1.082s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.STEP
+[1.082s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.STL
+[1.083s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.blend
+[1.083s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.dae
+[1.083s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.SLDPRT
+[1.084s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.STEP
+[1.084s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.STL
+[1.084s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.blend
+[1.098s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.dae
+[1.098s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/ament_index/resource_index/package_run_dependencies/bme_gazebo_basics
+[1.098s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/ament_index/resource_index/parent_prefix_path/bme_gazebo_basics
+[1.098s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/ament_prefix_path.sh
+[1.099s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/ament_prefix_path.dsv
+[1.100s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/path.sh
+[1.100s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/path.dsv
+[1.100s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.bash
+[1.101s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.sh
+[1.101s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.zsh
+[1.101s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.dsv
+[1.101s] -- Symlinking: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.dsv
+[1.102s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/ament_index/resource_index/packages/bme_gazebo_basics
+[1.102s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/cmake/bme_gazebo_basicsConfig.cmake
+[1.103s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/cmake/bme_gazebo_basicsConfig-version.cmake
+[1.104s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.xml
+[1.137s] Invoked command in '/home/neha/gitjazzy/build/bme_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/src/install/bme_ros2_navigation_py:/home/neha/gitjazzy/src/install/bme_gazebo_sensors_py:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_gazebo_basics

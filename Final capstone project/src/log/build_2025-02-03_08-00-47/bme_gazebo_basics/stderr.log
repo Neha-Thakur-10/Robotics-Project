@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/neha/gitjazzy/src/Week-3-4-Gazebo-basics/bme_gazebo_basics/launch":
+  No such file or directory.
+
+[0m

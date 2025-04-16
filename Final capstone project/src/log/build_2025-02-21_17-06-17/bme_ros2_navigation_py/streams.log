@@ -1,0 +1,45 @@
+[1.649s] Invoking command in '/home/neha/gitjazzy/src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py': PYTHONPATH=/home/neha/gitjazzy/src/build/bme_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bme_ros2_navigation_py build --build-base /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build install --record /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/install.log --single-version-externally-managed install_data
+[2.093s] running egg_info
+[2.093s] creating ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info
+[2.121s] writing ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/PKG-INFO
+[2.121s] writing dependency_links to ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/dependency_links.txt
+[2.122s] writing entry points to ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/entry_points.txt
+[2.123s] writing requirements to ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/requires.txt
+[2.124s] writing top-level names to ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/top_level.txt
+[2.124s] writing manifest file '../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/SOURCES.txt'
+[2.177s] reading manifest file '../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/SOURCES.txt'
+[2.178s] writing manifest file '../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info/SOURCES.txt'
+[2.179s] running build
+[2.179s] running build_py
+[2.179s] creating /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build
+[2.180s] creating /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build/lib
+[2.180s] creating /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build/lib/bme_ros2_navigation_py
+[2.180s] copying bme_ros2_navigation_py/slam_toolbox_load_map.py -> /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build/lib/bme_ros2_navigation_py
+[2.180s] copying bme_ros2_navigation_py/follow_waypoints.py -> /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build/lib/bme_ros2_navigation_py
+[2.181s] copying bme_ros2_navigation_py/__init__.py -> /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build/lib/bme_ros2_navigation_py
+[2.181s] copying bme_ros2_navigation_py/send_initialpose.py -> /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build/lib/bme_ros2_navigation_py
+[2.181s] running install
+[2.194s] running install_lib
+[2.229s] creating /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py
+[2.230s] copying /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build/lib/bme_ros2_navigation_py/slam_toolbox_load_map.py -> /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py
+[2.230s] copying /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build/lib/bme_ros2_navigation_py/follow_waypoints.py -> /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py
+[2.230s] copying /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build/lib/bme_ros2_navigation_py/__init__.py -> /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py
+[2.230s] copying /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build/lib/bme_ros2_navigation_py/send_initialpose.py -> /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py
+[2.231s] byte-compiling /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py/slam_toolbox_load_map.py to slam_toolbox_load_map.cpython-312.pyc
+[2.233s] byte-compiling /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py/follow_waypoints.py to follow_waypoints.cpython-312.pyc
+[2.234s] byte-compiling /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py/__init__.py to __init__.cpython-312.pyc
+[2.235s] byte-compiling /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py/send_initialpose.py to send_initialpose.cpython-312.pyc
+[2.236s] running install_data
+[2.236s] creating /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/share/ament_index
+[2.236s] creating /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/share/ament_index/resource_index
+[2.237s] creating /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/share/ament_index/resource_index/packages
+[2.237s] copying resource/bme_ros2_navigation_py -> /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/share/ament_index/resource_index/packages
+[2.237s] copying package.xml -> /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py
+[2.238s] running install_egg_info
+[2.265s] Copying ../../build/bme_ros2_navigation_py/bme_ros2_navigation_py.egg-info to /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages/bme_ros2_navigation_py-1.0.0-py3.12.egg-info
+[2.266s] running install_scripts
+[2.504s] Installing follow_waypoints script to /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/bme_ros2_navigation_py
+[2.504s] Installing send_initialpose script to /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/bme_ros2_navigation_py
+[2.505s] Installing slam_toolbox_load_map script to /home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/bme_ros2_navigation_py
+[2.505s] writing list of installed files to '/home/neha/gitjazzy/src/build/bme_ros2_navigation_py/install.log'
+[2.561s] Invoked command in '/home/neha/gitjazzy/src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py' returned '0': PYTHONPATH=/home/neha/gitjazzy/src/build/bme_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/src/install/bme_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bme_ros2_navigation_py build --build-base /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/build install --record /home/neha/gitjazzy/src/build/bme_ros2_navigation_py/install.log --single-version-externally-managed install_data

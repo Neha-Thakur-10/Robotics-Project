@@ -1,0 +1,47 @@
+[0.168s] Invoking command in '/home/neha/gitjazzy/build/bme_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_basics -- -j8 -l8
+[2.166s] Invoked command in '/home/neha/gitjazzy/build/bme_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_basics -- -j8 -l8
+[2.168s] Invoking command in '/home/neha/gitjazzy/build/bme_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_gazebo_basics
+[2.234s] -- Install configuration: ""
+[2.234s] -- Execute custom install script
+[2.295s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/launch/check_urdf.launch.py
+[2.295s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/launch/spawn_robot.launch.py
+[2.295s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/launch/world.launch.py
+[2.295s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/empty.sdf
+[2.295s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/world.sdf
+[2.295s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz/rviz.rviz
+[2.295s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz/urdf.rviz
+[2.296s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/materials.xacro
+[2.296s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot.gazebo
+[2.296s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot.urdf
+[2.297s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot_mecanum.gazebo
+[2.297s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot_mecanum.urdf
+[2.298s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot_skid_steer.gazebo
+[2.298s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/mogi_bot_skid_steer.urdf
+[2.298s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mecanum_wheel_left.STL
+[2.298s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mecanum_wheel_right.STL
+[2.299s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.SLDPRT
+[2.299s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.STEP
+[2.299s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.STL
+[2.299s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.blend
+[2.299s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.dae
+[2.300s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.SLDPRT
+[2.300s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.STEP
+[2.300s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.STL
+[2.300s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.blend
+[2.301s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.dae
+[2.301s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/ament_index/resource_index/package_run_dependencies/bme_gazebo_basics
+[2.306s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/ament_index/resource_index/parent_prefix_path/bme_gazebo_basics
+[2.326s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/ament_prefix_path.sh
+[2.327s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/ament_prefix_path.dsv
+[2.328s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/path.sh
+[2.336s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/path.dsv
+[2.336s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.bash
+[2.337s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.sh
+[2.337s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.zsh
+[2.337s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.dsv
+[2.337s] -- Symlinking: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.dsv
+[2.339s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/ament_index/resource_index/packages/bme_gazebo_basics
+[2.339s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/cmake/bme_gazebo_basicsConfig.cmake
+[2.339s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/cmake/bme_gazebo_basicsConfig-version.cmake
+[2.339s] -- Up-to-date symlink: /home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.xml
+[2.424s] Invoked command in '/home/neha/gitjazzy/build/bme_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_gazebo_basics

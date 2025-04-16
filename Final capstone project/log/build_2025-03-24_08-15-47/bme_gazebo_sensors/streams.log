@@ -1,0 +1,5 @@
+[0.088s] Invoking command in '/home/neha/gitjazzy/build/bme_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/Week-7-8-ROS2-Navigation/install/bme_ros2_navigation_py:/home/neha/gitjazzy/src/install/bme_ros2_navigation_py:/home/neha/gitjazzy/src/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_sensors -- -j8 -l8
+[1.044s] [0mCMake Error: The source directory "/home/neha/gitjazzy/src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors" does not exist.
+[1.045s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[1.048s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.087s] Invoked command in '/home/neha/gitjazzy/build/bme_gazebo_sensors' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/Week-7-8-ROS2-Navigation/install/bme_ros2_navigation_py:/home/neha/gitjazzy/src/install/bme_ros2_navigation_py:/home/neha/gitjazzy/src/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_sensors -- -j8 -l8

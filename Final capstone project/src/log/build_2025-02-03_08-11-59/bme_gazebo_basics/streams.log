@@ -1,0 +1,43 @@
+[0.025s] Invoking command in '/home/neha/gitjazzy/src/build/bme_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/src/build/bme_gazebo_basics -- -j8 -l8
+[0.083s] Invoked command in '/home/neha/gitjazzy/src/build/bme_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/src/build/bme_gazebo_basics -- -j8 -l8
+[0.098s] Invoking command in '/home/neha/gitjazzy/src/build/bme_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/src/build/bme_gazebo_basics
+[0.113s] -- Install configuration: ""
+[0.114s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/launch
+[0.114s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/launch/world.launch.py
+[0.114s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds
+[0.115s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/world.sdf
+[0.115s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/worlds/empty.sdf
+[0.115s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz
+[0.116s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz/rviz.rviz
+[0.116s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/rviz/urdf.rviz
+[0.117s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf
+[0.117s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/urdf/materials.xacro
+[0.118s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes
+[0.118s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mecanum_wheel_right.STL
+[0.120s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.SLDPRT
+[0.121s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.STL
+[0.121s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mecanum_wheel_left.STL
+[0.123s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.SLDPRT
+[0.124s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.blend
+[0.125s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.blend
+[0.127s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.STL
+[0.129s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.dae
+[0.129s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.dae
+[0.130s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/wheel.STEP
+[0.130s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/meshes/mogi_bot.STEP
+[0.132s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/ament_index/resource_index/package_run_dependencies/bme_gazebo_basics
+[0.133s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/ament_index/resource_index/parent_prefix_path/bme_gazebo_basics
+[0.134s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/ament_prefix_path.sh
+[0.134s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/ament_prefix_path.dsv
+[0.135s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/path.sh
+[0.136s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/environment/path.dsv
+[0.136s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.bash
+[0.137s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.sh
+[0.138s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.zsh
+[0.138s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/local_setup.dsv
+[0.139s] -- Up-to-date: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/package.dsv
+[0.139s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/ament_index/resource_index/packages/bme_gazebo_basics
+[0.140s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/cmake/bme_gazebo_basicsConfig.cmake
+[0.141s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/cmake/bme_gazebo_basicsConfig-version.cmake
+[0.141s] -- Installing: /home/neha/gitjazzy/src/install/bme_gazebo_basics/share/bme_gazebo_basics/package.xml
+[0.144s] Invoked command in '/home/neha/gitjazzy/src/build/bme_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/src/build/bme_gazebo_basics

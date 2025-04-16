@@ -1,0 +1,479 @@
+[1.977s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.977s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f62937ee990>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f62937ee7b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f62937ee7b0>>)
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.080s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/neha/gitjazzy'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extensions ['ignore', 'ignore_ament_install']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extension 'ignore'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extension 'ignore_ament_install'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extensions ['colcon_pkg']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extension 'colcon_pkg'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extensions ['colcon_meta']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extension 'colcon_meta'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extensions ['ros']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extension 'ros'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extensions ['cmake', 'python']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extension 'cmake'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extension 'python'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extensions ['python_setup_py']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics) by extension 'python_setup_py'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extensions ['ignore', 'ignore_ament_install']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extension 'ignore'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extension 'ignore_ament_install'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extensions ['colcon_pkg']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extension 'colcon_pkg'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extensions ['colcon_meta']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extension 'colcon_meta'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extensions ['ros']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extension 'ros'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extensions ['cmake', 'python']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extension 'cmake'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extension 'python'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extensions ['python_setup_py']
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/assets) by extension 'python_setup_py'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/bme_gazebo_basics) by extensions ['ignore', 'ignore_ament_install']
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/bme_gazebo_basics) by extension 'ignore'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/bme_gazebo_basics) by extension 'ignore_ament_install'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/bme_gazebo_basics) by extensions ['colcon_pkg']
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/bme_gazebo_basics) by extension 'colcon_pkg'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/bme_gazebo_basics) by extensions ['colcon_meta']
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/bme_gazebo_basics) by extension 'colcon_meta'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/bme_gazebo_basics) by extensions ['ros']
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-3-4-Gazebo-basics/bme_gazebo_basics) by extension 'ros'
+[2.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Week-3-4-Gazebo-basics/bme_gazebo_basics' with type 'ros.ament_cmake' and name 'bme_gazebo_basics'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extensions ['ignore', 'ignore_ament_install']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extension 'ignore'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extension 'ignore_ament_install'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extensions ['colcon_pkg']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extension 'colcon_pkg'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extensions ['colcon_meta']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extension 'colcon_meta'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extensions ['ros']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extension 'ros'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extensions ['cmake', 'python']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extension 'cmake'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extension 'python'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extensions ['python_setup_py']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors) by extension 'python_setup_py'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extensions ['ignore', 'ignore_ament_install']
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extension 'ignore'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extension 'ignore_ament_install'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extensions ['colcon_pkg']
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extension 'colcon_pkg'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extensions ['colcon_meta']
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extension 'colcon_meta'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extensions ['ros']
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extension 'ros'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extensions ['cmake', 'python']
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extension 'cmake'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extension 'python'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extensions ['python_setup_py']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/assets) by extension 'python_setup_py'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors) by extensions ['ignore', 'ignore_ament_install']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors) by extension 'ignore'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors) by extension 'ignore_ament_install'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors) by extensions ['colcon_pkg']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors) by extension 'colcon_pkg'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors) by extensions ['colcon_meta']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors) by extension 'colcon_meta'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors) by extensions ['ros']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors) by extension 'ros'
+[2.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors' with type 'ros.ament_cmake' and name 'bme_gazebo_sensors'
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py) by extensions ['ignore', 'ignore_ament_install']
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py) by extension 'ignore'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py) by extension 'ignore_ament_install'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py) by extensions ['colcon_pkg']
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py) by extension 'colcon_pkg'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py) by extensions ['colcon_meta']
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py) by extension 'colcon_meta'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py) by extensions ['ros']
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py) by extension 'ros'
+[2.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py' with type 'ros.ament_python' and name 'bme_gazebo_sensors_py'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extensions ['ignore', 'ignore_ament_install']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extension 'ignore'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extension 'ignore_ament_install'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extensions ['colcon_pkg']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extension 'colcon_pkg'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extensions ['colcon_meta']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extension 'colcon_meta'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extensions ['ros']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extension 'ros'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extensions ['cmake', 'python']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extension 'cmake'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extension 'python'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extensions ['python_setup_py']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation) by extension 'python_setup_py'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extensions ['ignore', 'ignore_ament_install']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extension 'ignore'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extension 'ignore_ament_install'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extensions ['colcon_pkg']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extension 'colcon_pkg'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extensions ['colcon_meta']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extension 'colcon_meta'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extensions ['ros']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extension 'ros'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extensions ['cmake', 'python']
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extension 'cmake'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extension 'python'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extensions ['python_setup_py']
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/assets) by extension 'python_setup_py'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation) by extension 'ignore'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation) by extension 'ignore_ament_install'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation) by extensions ['colcon_pkg']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation) by extension 'colcon_pkg'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation) by extensions ['colcon_meta']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation) by extension 'colcon_meta'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation) by extensions ['ros']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation) by extension 'ros'
+[2.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Week-7-8-ROS2-Navigation/bme_ros2_navigation' with type 'ros.ament_cmake' and name 'bme_ros2_navigation'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py) by extensions ['ignore', 'ignore_ament_install']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py) by extension 'ignore'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py) by extension 'ignore_ament_install'
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py) by extensions ['colcon_pkg']
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py) by extension 'colcon_pkg'
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py) by extensions ['colcon_meta']
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py) by extension 'colcon_meta'
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py) by extensions ['ros']
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py) by extension 'ros'
+[2.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py' with type 'ros.ament_python' and name 'bme_ros2_navigation_py'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/build) by extensions ['ignore', 'ignore_ament_install']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/build) by extension 'ignore'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/build) ignored
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/install) by extensions ['ignore', 'ignore_ament_install']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/install) by extension 'ignore'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/install) ignored
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/log) by extensions ['ignore', 'ignore_ament_install']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/log) by extension 'ignore'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/Week-7-8-ROS2-Navigation/log) ignored
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extensions ['ignore', 'ignore_ament_install']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extension 'ignore'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extension 'ignore_ament_install'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extensions ['colcon_pkg']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extension 'colcon_pkg'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extensions ['colcon_meta']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extension 'colcon_meta'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extensions ['ros']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extension 'ros'
+[2.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mogi_trajectory_server' with type 'ros.ament_python' and name 'mogi_trajectory_server'
+[2.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.189s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_basics' build argument 'cmake_args' from command line to 'None'
+[2.189s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_basics' build argument 'cmake_target' from command line to 'None'
+[2.189s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_basics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.189s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_basics' build argument 'cmake_clean_cache' from command line to 'False'
+[2.189s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_basics' build argument 'cmake_clean_first' from command line to 'False'
+[2.189s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_basics' build argument 'cmake_force_configure' from command line to 'False'
+[2.189s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_basics' build argument 'ament_cmake_args' from command line to 'None'
+[2.189s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_basics' build argument 'catkin_cmake_args' from command line to 'None'
+[2.189s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_basics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.189s] DEBUG:colcon.colcon_core.verb:Building package 'bme_gazebo_basics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neha/gitjazzy/build/bme_gazebo_basics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neha/gitjazzy/install/bme_gazebo_basics', 'merge_install': False, 'path': '/home/neha/gitjazzy/src/Week-3-4-Gazebo-basics/bme_gazebo_basics', 'symlink_install': False, 'test_result_base': None}
+[2.189s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_args' from command line to 'None'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_target' from command line to 'None'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.190s] DEBUG:colcon.colcon_core.verb:Building package 'bme_gazebo_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neha/gitjazzy/build/bme_gazebo_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neha/gitjazzy/install/bme_gazebo_sensors', 'merge_install': False, 'path': '/home/neha/gitjazzy/src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors', 'symlink_install': False, 'test_result_base': None}
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors_py' build argument 'cmake_args' from command line to 'None'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors_py' build argument 'cmake_target' from command line to 'None'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors_py' build argument 'cmake_clean_cache' from command line to 'False'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors_py' build argument 'cmake_clean_first' from command line to 'False'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors_py' build argument 'cmake_force_configure' from command line to 'False'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors_py' build argument 'ament_cmake_args' from command line to 'None'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors_py' build argument 'catkin_cmake_args' from command line to 'None'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.190s] DEBUG:colcon.colcon_core.verb:Building package 'bme_gazebo_sensors_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neha/gitjazzy/build/bme_gazebo_sensors_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neha/gitjazzy/install/bme_gazebo_sensors_py', 'merge_install': False, 'path': '/home/neha/gitjazzy/src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py', 'symlink_install': False, 'test_result_base': None}
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_args' from command line to 'None'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_target' from command line to 'None'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.191s] DEBUG:colcon.colcon_core.verb:Building package 'bme_ros2_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neha/gitjazzy/build/bme_ros2_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neha/gitjazzy/install/bme_ros2_navigation', 'merge_install': False, 'path': '/home/neha/gitjazzy/src/Week-7-8-ROS2-Navigation/bme_ros2_navigation', 'symlink_install': False, 'test_result_base': None}
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_args' from command line to 'None'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_target' from command line to 'None'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_clean_cache' from command line to 'False'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_clean_first' from command line to 'False'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_force_configure' from command line to 'False'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'ament_cmake_args' from command line to 'None'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'catkin_cmake_args' from command line to 'None'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.192s] DEBUG:colcon.colcon_core.verb:Building package 'bme_ros2_navigation_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neha/gitjazzy/build/bme_ros2_navigation_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neha/gitjazzy/install/bme_ros2_navigation_py', 'merge_install': False, 'path': '/home/neha/gitjazzy/src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py', 'symlink_install': False, 'test_result_base': None}
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_args' from command line to 'None'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_target' from command line to 'None'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_clean_cache' from command line to 'False'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_clean_first' from command line to 'False'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_force_configure' from command line to 'False'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'ament_cmake_args' from command line to 'None'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'catkin_cmake_args' from command line to 'None'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.192s] DEBUG:colcon.colcon_core.verb:Building package 'mogi_trajectory_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neha/gitjazzy/build/mogi_trajectory_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neha/gitjazzy/install/mogi_trajectory_server', 'merge_install': False, 'path': '/home/neha/gitjazzy/src/mogi_trajectory_server', 'symlink_install': False, 'test_result_base': None}
+[2.193s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/neha/gitjazzy/src/Week-3-4-Gazebo-basics/bme_gazebo_basics' with build type 'ament_cmake'
+[2.195s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/neha/gitjazzy/src/Week-3-4-Gazebo-basics/bme_gazebo_basics'
+[2.205s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/neha/gitjazzy/src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors' with build type 'ament_cmake'
+[2.236s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/neha/gitjazzy/src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors'
+[2.236s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.245s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/neha/gitjazzy/src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py' with build type 'ament_python'
+[2.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_gazebo_sensors_py', 'ament_prefix_path')
+[2.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/bme_gazebo_sensors_py/hook/ament_prefix_path.dsv'
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/bme_gazebo_sensors_py/hook/ament_prefix_path.sh'
+[2.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/neha/gitjazzy/src/Week-7-8-ROS2-Navigation/bme_ros2_navigation' with build type 'ament_cmake'
+[2.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/neha/gitjazzy/src/Week-7-8-ROS2-Navigation/bme_ros2_navigation'
+[2.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.274s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/neha/gitjazzy/src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py' with build type 'ament_python'
+[2.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation_py', 'ament_prefix_path')
+[2.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/ament_prefix_path.dsv'
+[2.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/ament_prefix_path.sh'
+[2.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.290s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/neha/gitjazzy/src/mogi_trajectory_server' with build type 'ament_python'
+[2.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('mogi_trajectory_server', 'ament_prefix_path')
+[2.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/ament_prefix_path.dsv'
+[2.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/ament_prefix_path.sh'
+[2.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neha/gitjazzy/build/bme_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_basics -- -j8 -l8
+[2.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neha/gitjazzy/build/bme_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_sensors -- -j8 -l8
+[2.861s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/neha/gitjazzy/src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py'
+[2.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neha/gitjazzy/build/bme_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_ros2_navigation -- -j8 -l8
+[3.293s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/neha/gitjazzy/src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py'
+[3.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.674s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/neha/gitjazzy/src/mogi_trajectory_server'
+[3.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neha/gitjazzy/build/bme_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_basics -- -j8 -l8
+[3.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neha/gitjazzy/build/bme_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_gazebo_basics
+[3.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neha/gitjazzy/build/bme_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_sensors -- -j8 -l8
+[3.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neha/gitjazzy/build/bme_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_gazebo_sensors
+[3.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neha/gitjazzy/build/bme_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_ros2_navigation -- -j8 -l8
+[3.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neha/gitjazzy/build/bme_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_ros2_navigation
+[3.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_gazebo_sensors)
+[3.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neha/gitjazzy/build/bme_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_gazebo_sensors
+[3.852s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors' for CMake module files
+[3.854s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors' for CMake config files
+[3.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_gazebo_sensors', 'cmake_prefix_path')
+[3.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/hook/cmake_prefix_path.dsv'
+[3.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/hook/cmake_prefix_path.sh'
+[3.859s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors/bin'
+[3.860s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors/lib/pkgconfig/bme_gazebo_sensors.pc'
+[3.861s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors/lib/python3.12/site-packages'
+[3.861s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors/bin'
+[3.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.dsv'
+[3.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.sh'
+[3.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.bash'
+[3.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.zsh'
+[3.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neha/gitjazzy/install/bme_gazebo_sensors/share/colcon-core/packages/bme_gazebo_sensors)
+[3.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_gazebo_sensors)
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors' for CMake module files
+[3.874s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors' for CMake config files
+[3.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_gazebo_sensors', 'cmake_prefix_path')
+[3.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/hook/cmake_prefix_path.dsv'
+[3.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/hook/cmake_prefix_path.sh'
+[3.877s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors/bin'
+[3.877s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors/lib/pkgconfig/bme_gazebo_sensors.pc'
+[3.878s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors/lib/python3.12/site-packages'
+[3.878s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors/bin'
+[3.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.dsv'
+[3.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.sh'
+[3.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.bash'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.zsh'
+[3.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neha/gitjazzy/install/bme_gazebo_sensors/share/colcon-core/packages/bme_gazebo_sensors)
+[3.886s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_navigation)
+[3.886s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation' for CMake module files
+[3.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neha/gitjazzy/build/bme_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_ros2_navigation
+[3.888s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation' for CMake config files
+[3.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation', 'cmake_prefix_path')
+[3.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.dsv'
+[3.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.sh'
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation/bin'
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation/lib/pkgconfig/bme_ros2_navigation.pc'
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation/lib/python3.12/site-packages'
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation/bin'
+[3.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/package.dsv'
+[3.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/package.sh'
+[3.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/package.bash'
+[3.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/package.zsh'
+[3.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neha/gitjazzy/install/bme_ros2_navigation/share/colcon-core/packages/bme_ros2_navigation)
+[3.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_navigation)
+[3.895s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation' for CMake module files
+[3.896s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation' for CMake config files
+[3.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation', 'cmake_prefix_path')
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.dsv'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.sh'
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation/bin'
+[3.901s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation/lib/pkgconfig/bme_ros2_navigation.pc'
+[3.902s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation/lib/python3.12/site-packages'
+[3.905s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation/bin'
+[3.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/package.dsv'
+[3.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/package.sh'
+[3.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/package.bash'
+[3.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_ros2_navigation/share/bme_ros2_navigation/package.zsh'
+[3.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neha/gitjazzy/install/bme_ros2_navigation/share/colcon-core/packages/bme_ros2_navigation)
+[3.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_gazebo_basics)
+[3.913s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics' for CMake module files
+[3.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neha/gitjazzy/build/bme_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/gitjazzy/install/mogi_trajectory_server:/home/neha/gitjazzy/install/bme_ros2_navigation_py:/home/neha/gitjazzy/install/bme_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_gazebo_basics
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics' for CMake config files
+[3.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_gazebo_basics', 'cmake_prefix_path')
+[3.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/hook/cmake_prefix_path.dsv'
+[3.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/hook/cmake_prefix_path.sh'
+[3.931s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics/bin'
+[3.931s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics/lib/pkgconfig/bme_gazebo_basics.pc'
+[3.932s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics/lib/python3.12/site-packages'
+[3.932s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics/bin'
+[3.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.dsv'
+[3.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.sh'
+[3.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.bash'
+[3.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.zsh'
+[3.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neha/gitjazzy/install/bme_gazebo_basics/share/colcon-core/packages/bme_gazebo_basics)
+[3.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_gazebo_basics)
+[3.944s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics' for CMake module files
+[3.947s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics' for CMake config files
+[3.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_gazebo_basics', 'cmake_prefix_path')
+[3.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/hook/cmake_prefix_path.dsv'
+[3.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/hook/cmake_prefix_path.sh'
+[3.960s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics/bin'
+[3.961s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics/lib/pkgconfig/bme_gazebo_basics.pc'
+[3.963s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics/lib/python3.12/site-packages'
+[3.964s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_basics/bin'
+[3.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.dsv'
+[3.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.sh'
+[3.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.bash'
+[3.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_basics/share/bme_gazebo_basics/package.zsh'
+[3.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neha/gitjazzy/install/bme_gazebo_basics/share/colcon-core/packages/bme_gazebo_basics)
+[5.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neha/gitjazzy/src/mogi_trajectory_server': PYTHONPATH=/home/neha/gitjazzy/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/neha/gitjazzy/build/mogi_trajectory_server/build install --record /home/neha/gitjazzy/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[5.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neha/gitjazzy/src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py': PYTHONPATH=/home/neha/gitjazzy/build/bme_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/bme_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bme_ros2_navigation_py build --build-base /home/neha/gitjazzy/build/bme_ros2_navigation_py/build install --record /home/neha/gitjazzy/build/bme_ros2_navigation_py/install.log --single-version-externally-managed install_data
+[5.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neha/gitjazzy/src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py': PYTHONPATH=/home/neha/gitjazzy/build/bme_gazebo_sensors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bme_gazebo_sensors_py build --build-base /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build install --record /home/neha/gitjazzy/build/bme_gazebo_sensors_py/install.log --single-version-externally-managed install_data
+[7.010s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/mogi_trajectory_server' for CMake module files
+[7.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neha/gitjazzy/src/mogi_trajectory_server' returned '0': PYTHONPATH=/home/neha/gitjazzy/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/neha/gitjazzy/build/mogi_trajectory_server/build install --record /home/neha/gitjazzy/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[7.012s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/mogi_trajectory_server' for CMake config files
+[7.017s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/mogi_trajectory_server/lib'
+[7.017s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/mogi_trajectory_server/bin'
+[7.017s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/mogi_trajectory_server/lib/pkgconfig/mogi_trajectory_server.pc'
+[7.018s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/mogi_trajectory_server/lib/python3.12/site-packages'
+[7.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('mogi_trajectory_server', 'pythonpath')
+[7.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/pythonpath.dsv'
+[7.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/pythonpath.sh'
+[7.020s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/mogi_trajectory_server/bin'
+[7.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mogi_trajectory_server)
+[7.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neha/gitjazzy/install/mogi_trajectory_server/share/mogi_trajectory_server/package.dsv'
+[7.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/mogi_trajectory_server/share/mogi_trajectory_server/package.sh'
+[7.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/mogi_trajectory_server/share/mogi_trajectory_server/package.bash'
+[7.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/mogi_trajectory_server/share/mogi_trajectory_server/package.zsh'
+[7.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neha/gitjazzy/install/mogi_trajectory_server/share/colcon-core/packages/mogi_trajectory_server)
+[7.030s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors_py' for CMake module files
+[7.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neha/gitjazzy/src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py' returned '0': PYTHONPATH=/home/neha/gitjazzy/build/bme_gazebo_sensors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bme_gazebo_sensors_py build --build-base /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build install --record /home/neha/gitjazzy/build/bme_gazebo_sensors_py/install.log --single-version-externally-managed install_data
+[7.034s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors_py' for CMake config files
+[7.035s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib'
+[7.035s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/bin'
+[7.035s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/pkgconfig/bme_gazebo_sensors_py.pc'
+[7.036s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages'
+[7.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_gazebo_sensors_py', 'pythonpath')
+[7.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/bme_gazebo_sensors_py/hook/pythonpath.dsv'
+[7.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/bme_gazebo_sensors_py/hook/pythonpath.sh'
+[7.039s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/bin'
+[7.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_gazebo_sensors_py)
+[7.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/bme_gazebo_sensors_py/package.dsv'
+[7.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/bme_gazebo_sensors_py/package.sh'
+[7.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/bme_gazebo_sensors_py/package.bash'
+[7.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/bme_gazebo_sensors_py/package.zsh'
+[7.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/colcon-core/packages/bme_gazebo_sensors_py)
+[7.048s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation_py' for CMake module files
+[7.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neha/gitjazzy/src/Week-7-8-ROS2-Navigation/bme_ros2_navigation_py' returned '0': PYTHONPATH=/home/neha/gitjazzy/build/bme_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/bme_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bme_ros2_navigation_py build --build-base /home/neha/gitjazzy/build/bme_ros2_navigation_py/build install --record /home/neha/gitjazzy/build/bme_ros2_navigation_py/install.log --single-version-externally-managed install_data
+[7.050s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation_py' for CMake config files
+[7.051s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation_py/lib'
+[7.051s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation_py/bin'
+[7.051s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation_py/lib/pkgconfig/bme_ros2_navigation_py.pc'
+[7.051s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation_py/lib/python3.12/site-packages'
+[7.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation_py', 'pythonpath')
+[7.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neha/gitjazzy/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/pythonpath.dsv'
+[7.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neha/gitjazzy/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/pythonpath.sh'
+[7.053s] Level 1:colcon.colcon_core.environment:checking '/home/neha/gitjazzy/install/bme_ros2_navigation_py/bin'
+[7.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_navigation_py)
+[7.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neha/gitjazzy/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.dsv'
+[7.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.sh'
+[7.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.bash'
+[7.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/neha/gitjazzy/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.zsh'
+[7.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neha/gitjazzy/install/bme_ros2_navigation_py/share/colcon-core/packages/bme_ros2_navigation_py)
+[7.058s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.063s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.066s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.195s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.195s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.195s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.198s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[7.199s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.199s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/neha/gitjazzy/install/local_setup.sh'
+[7.201s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/neha/gitjazzy/install/_local_setup_util_sh.py'
+[7.204s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/neha/gitjazzy/install/setup.sh'
+[7.208s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/neha/gitjazzy/install/local_setup.bash'
+[7.209s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/neha/gitjazzy/install/setup.bash'
+[7.211s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/neha/gitjazzy/install/local_setup.zsh'
+[7.212s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/neha/gitjazzy/install/setup.zsh'

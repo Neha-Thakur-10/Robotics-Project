@@ -1,0 +1,1 @@
+/home/neha/gitjazzy/build/bme_gazebo_basics/ament_cmake_environment_hooks/local_setup.zsh

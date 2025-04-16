@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<robot name="demo" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Materials -->
+  <material name="blue">
+    <color rgba="0 0 1 1" />
+  </material>
+  <material name="grey">
+    <color rgba="0.5 0.5 0.5 1" />
+  </material>
+  <material name="black">
+    <color rgba="0 0 0 1" />
+  </material>
+  <material name="green">
+    <color rgba="0 1 0 1" />
+  </material>
+  <material name="red">
+    <color rgba="1 0 0 1" />
+  </material>
+
+  <!-- Base links -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="1 0.6 0.2" />
+      </geometry>
+      <origin xyz="0 0 0.1" rpy="0 0 0" />
+      <material name="grey" />
+    </visual>
+  </link>
+
+  <!-- Wheels -->
+  <link name="left_wheel_1">
+    <visual>
+      <geometry>
+        <cylinder radius="0.15" length="0.05" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.5707 0 0" />
+      <material name="black" />
+    </visual>
+  </link>
+  <link name="right_wheel_1">
+    <visual>
+      <geometry>
+        <cylinder radius="0.15" length="0.05" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.5707 0 0" />
+      <material name="black" />
+    </visual>
+  </link>
+  <link name="left_wheel_2">
+    <visual>
+      <geometry>
+        <cylinder radius="0.15" length="0.05" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.5707 0 0" />
+      <material name="black" />
+    </visual>
+  </link>
+  <link name="right_wheel_2">
+    <visual>
+      <geometry>
+        <cylinder radius="0.15" length="0.05" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.5707 0 0" />
+      <material name="black" />
+    </visual>
+  </link>
+
+   <!-- Box above the wheels -->
+  <link name="main_box">
+    <visual>
+      <geometry>
+        <box size="1 0.6 0.4" />
+      </geometry>
+      <origin xyz="0 0 0.2" rpy="0 0 0" />
+      <material name="grey" />
+    </visual>
+  </link>
+
+  <!-- Two cylindrical discs -->
+  <link name="cylinder_1">
+    <visual>
+      <geometry>
+        <cylinder radius="0.3" length="0.05" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <material name="black" />
+    </visual>
+  </link>
+  <link name="cylinder_2">
+    <visual>
+      <geometry>
+        <cylinder radius="0.3" length="0.05" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <material name="black" />
+    </visual>
+  </link>
+
+   <!-- Rectangular box on bottam of the cylinders -->
+  <link name="rectangular_box">
+    <visual>
+      <geometry>
+        <box size="0.6 0.6 0.8" />
+      </geometry>
+      <origin xyz="0 0 0.05" rpy="0 0 0" />
+      <material name="grey" />
+    </visual>
+  </link>
+
+  <!-- Cylindrical neck on top of rectangular box -->
+  <link name="neck">
+    <visual>
+      <geometry>
+        <cylinder radius="0.1" length="0.2" />
+      </geometry>
+      <origin xyz="0 0 0.05" rpy="0 0 0" />
+      <material name="grey" />
+    </visual>
+  </link>
+
+  <!-- Face (sphere) on top of the neck -->
+  <link name="face">
+    <visual>
+      <geometry>
+        <sphere radius="0.2" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <material name="black" />
+    </visual>
+  </link>
+
+  <!-- Connections between base and wheels -->
+  <joint name="joint_base_left_1" type="continuous">
+    <parent link="base_link" />
+    <child link="left_wheel_1" />
+    <origin xyz="-0.4 0.335 0" rpy="0 0 0" />
+    <!-- <limit upper="3.1415" lower="-3.1415" effort="30" velocity="5.0"/> -->
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <joint name="joint_base_right_1" type="continuous">
+    <parent link="base_link" />
+    <child link="right_wheel_1" />
+    <origin xyz="0.4 0.335 0" rpy="0 0 0" />
+    <!-- <limit upper="3.1415" lower="-3.1415" effort="30" velocity="5.0"/> -->
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <joint name="joint_base_left_2" type="continuous">
+    <parent link="base_link" />
+    <child link="left_wheel_2" />
+    <origin xyz="-0.4 -0.335 0" rpy="0 0 0" />
+   <!-- <limit upper="3.1415" lower="-3.1415" effort="30" velocity="5.0"/> -->
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <joint name="joint_base_right_2" type="continuous">
+    <parent link="base_link" />
+    <child link="right_wheel_2" />
+    <origin xyz="0.4 -0.335 0" rpy="0 0 0" />
+   <!-- <limit upper="3.1415" lower="-3.1415" effort="30" velocity="5.0"/> -->
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!--connection with base box-->
+  <joint name="joint_box_base" type="fixed">
+    <parent link="base_link" />
+    <child link="main_box" />
+    <origin xyz="0 0 0.2" rpy="0 0 0" />
+  </joint>
+
+  <!--connection box with cylinders-->
+  <joint name="joint_box_cylinder_1" type="fixed">
+    <parent link="main_box" />
+    <child link="cylinder_1" />
+    <origin xyz="0 0.3 0.35" rpy="0 0 0" />
+  </joint>
+  <joint name="joint_box_cylinder_2" type="fixed">
+    <parent link="main_box" />
+    <child link="cylinder_2" />
+    <origin xyz="0 -0.3 0.35" rpy="0 0 0" />
+  </joint>
+
+  <joint name="joint_cylinder_box" type="fixed">
+    <parent link="cylinder_1" />
+    <child link="rectangular_box" />
+    <origin xyz="0 -0.3 0.42" rpy="0 0 0" />
+  </joint>
+
+  <joint name="joint_rectangular_neck" type="fixed">
+    <parent link="rectangular_box" />
+    <child link="neck" />
+    <origin xyz="0 0 0.4" rpy="0 0 0" />
+  </joint>
+
+  <joint name="joint_neck_face" type="fixed">
+    <parent link="neck" />
+    <child link="face" />
+    <origin xyz="0 0 0.4" rpy="0 0 0" />
+  </joint>
+
+</robot>

@@ -1,0 +1,44 @@
+[2.845s] Invoking command in '/home/neha/gitjazzy/src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py': PYTHONPATH=/home/neha/gitjazzy/build/bme_gazebo_sensors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bme_gazebo_sensors_py build --build-base /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build install --record /home/neha/gitjazzy/build/bme_gazebo_sensors_py/install.log --single-version-externally-managed install_data
+[3.419s] running egg_info
+[3.419s] creating ../../../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info
+[3.467s] writing ../../../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/PKG-INFO
+[3.468s] writing dependency_links to ../../../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/dependency_links.txt
+[3.468s] writing entry points to ../../../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/entry_points.txt
+[3.468s] writing requirements to ../../../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/requires.txt
+[3.469s] writing top-level names to ../../../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/top_level.txt
+[3.469s] writing manifest file '../../../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/SOURCES.txt'
+[3.552s] reading manifest file '../../../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/SOURCES.txt'
+[3.553s] writing manifest file '../../../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info/SOURCES.txt'
+[3.554s] running build
+[3.554s] running build_py
+[3.555s] creating /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build
+[3.555s] creating /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build/lib
+[3.555s] creating /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py
+[3.556s] copying bme_gazebo_sensors_py/gps_waypoint_follower.py -> /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py
+[3.556s] copying bme_gazebo_sensors_py/haversine_test.py -> /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py
+[3.557s] copying bme_gazebo_sensors_py/__init__.py -> /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py
+[3.557s] copying bme_gazebo_sensors_py/image_republisher.py -> /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py
+[3.558s] running install
+[3.568s] running install_lib
+[3.613s] creating /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py
+[3.614s] copying /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py/gps_waypoint_follower.py -> /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py
+[3.614s] copying /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py/haversine_test.py -> /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py
+[3.615s] copying /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py/__init__.py -> /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py
+[3.616s] copying /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build/lib/bme_gazebo_sensors_py/image_republisher.py -> /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py
+[3.616s] byte-compiling /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py/gps_waypoint_follower.py to gps_waypoint_follower.cpython-312.pyc
+[3.618s] byte-compiling /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py/haversine_test.py to haversine_test.cpython-312.pyc
+[3.619s] byte-compiling /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py/__init__.py to __init__.cpython-312.pyc
+[3.619s] byte-compiling /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py/image_republisher.py to image_republisher.cpython-312.pyc
+[3.620s] running install_data
+[3.621s] creating /home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/ament_index
+[3.621s] creating /home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/ament_index/resource_index
+[3.622s] creating /home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/ament_index/resource_index/packages
+[3.622s] copying resource/bme_gazebo_sensors_py -> /home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/ament_index/resource_index/packages
+[3.623s] copying package.xml -> /home/neha/gitjazzy/install/bme_gazebo_sensors_py/share/bme_gazebo_sensors_py
+[3.623s] running install_egg_info
+[3.668s] Copying ../../../build/bme_gazebo_sensors_py/bme_gazebo_sensors_py.egg-info to /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages/bme_gazebo_sensors_py-1.0.0-py3.12.egg-info
+[3.670s] running install_scripts
+[3.980s] Installing gps_waypoint_follower script to /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/bme_gazebo_sensors_py
+[3.981s] Installing image_republisher script to /home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/bme_gazebo_sensors_py
+[3.981s] writing list of installed files to '/home/neha/gitjazzy/build/bme_gazebo_sensors_py/install.log'
+[4.039s] Invoked command in '/home/neha/gitjazzy/src/Week-5-6-Gazebo-sensors/bme_gazebo_sensors_py' returned '0': PYTHONPATH=/home/neha/gitjazzy/build/bme_gazebo_sensors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/bme_gazebo_sensors_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bme_gazebo_sensors_py build --build-base /home/neha/gitjazzy/build/bme_gazebo_sensors_py/build install --record /home/neha/gitjazzy/build/bme_gazebo_sensors_py/install.log --single-version-externally-managed install_data

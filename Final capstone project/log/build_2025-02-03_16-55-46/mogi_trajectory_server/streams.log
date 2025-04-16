@@ -1,0 +1,20 @@
+[1.373s] Invoking command in '/home/neha/gitjazzy/build/mogi_trajectory_server': PYTHONPATH=/home/neha/gitjazzy/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/neha/gitjazzy/build/mogi_trajectory_server/build --no-deps symlink_data --force
+[1.836s] running develop
+[2.142s] running egg_info
+[2.171s] writing mogi_trajectory_server.egg-info/PKG-INFO
+[2.172s] writing dependency_links to mogi_trajectory_server.egg-info/dependency_links.txt
+[2.172s] writing entry points to mogi_trajectory_server.egg-info/entry_points.txt
+[2.173s] writing requirements to mogi_trajectory_server.egg-info/requires.txt
+[2.173s] writing top-level names to mogi_trajectory_server.egg-info/top_level.txt
+[2.230s] reading manifest file 'mogi_trajectory_server.egg-info/SOURCES.txt'
+[2.232s] writing manifest file 'mogi_trajectory_server.egg-info/SOURCES.txt'
+[2.269s] running build_ext
+[2.270s] Creating /home/neha/gitjazzy/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi-trajectory-server.egg-link (link to .)
+[2.271s] Installing mogi_trajectory_server script to /home/neha/gitjazzy/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[2.272s] Installing mogi_trajectory_server_topic_based script to /home/neha/gitjazzy/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[2.273s] 
+[2.273s] Installed /home/neha/gitjazzy/build/mogi_trajectory_server
+[2.274s] running symlink_data
+[2.274s] symbolically linking /home/neha/gitjazzy/build/mogi_trajectory_server/resource/mogi_trajectory_server -> /home/neha/gitjazzy/install/mogi_trajectory_server/share/ament_index/resource_index/packages
+[2.274s] symbolically linking /home/neha/gitjazzy/build/mogi_trajectory_server/package.xml -> /home/neha/gitjazzy/install/mogi_trajectory_server/share/mogi_trajectory_server
+[2.325s] Invoked command in '/home/neha/gitjazzy/build/mogi_trajectory_server' returned '0': PYTHONPATH=/home/neha/gitjazzy/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neha/gitjazzy/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/neha/gitjazzy/build/mogi_trajectory_server/build --no-deps symlink_data --force

@@ -1,0 +1,43 @@
+[0.198s] Invoking command in '/home/neha/gitjazzy/build/bme_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_sensors -- -j8 -l8
+[3.121s] Invoked command in '/home/neha/gitjazzy/build/bme_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/neha/gitjazzy/build/bme_gazebo_sensors -- -j8 -l8
+[3.122s] Invoking command in '/home/neha/gitjazzy/build/bme_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_gazebo_sensors
+[3.169s] -- Install configuration: ""
+[3.170s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/launch
+[3.177s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/launch/check_urdf.launch.py
+[3.177s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/launch/spawn_robot.launch.py
+[3.177s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/launch/world.launch.py
+[3.178s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/worlds
+[3.178s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/worlds/home.sdf
+[3.179s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/worlds/world.sdf
+[3.179s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/worlds/empty.sdf
+[3.179s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/rviz
+[3.180s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/rviz/gps.rviz
+[3.181s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/rviz/rviz.rviz
+[3.181s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/rviz/urdf.rviz
+[3.188s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/urdf
+[3.192s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/urdf/mogi_bot.urdf
+[3.193s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/urdf/different_cameras.gazebo.bak
+[3.193s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/urdf/materials.xacro
+[3.194s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/urdf/mogi_bot.gazebo
+[3.194s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/meshes
+[3.194s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/meshes/lidar.dae
+[3.194s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/meshes/mogi_bot.dae
+[3.194s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/meshes/wheel.dae
+[3.195s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/config
+[3.195s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/config/ekf.yaml
+[3.195s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/ament_index/resource_index/package_run_dependencies/bme_gazebo_sensors
+[3.195s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/ament_index/resource_index/parent_prefix_path/bme_gazebo_sensors
+[3.195s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/environment/ament_prefix_path.sh
+[3.195s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/environment/ament_prefix_path.dsv
+[3.196s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/environment/path.sh
+[3.196s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/environment/path.dsv
+[3.196s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/local_setup.bash
+[3.196s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/local_setup.sh
+[3.196s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/local_setup.zsh
+[3.197s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/local_setup.dsv
+[3.197s] -- Installing: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.dsv
+[3.198s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/ament_index/resource_index/packages/bme_gazebo_sensors
+[3.198s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/cmake/bme_gazebo_sensorsConfig.cmake
+[3.198s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/cmake/bme_gazebo_sensorsConfig-version.cmake
+[3.199s] -- Up-to-date: /home/neha/gitjazzy/install/bme_gazebo_sensors/share/bme_gazebo_sensors/package.xml
+[3.359s] Invoked command in '/home/neha/gitjazzy/build/bme_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/neha/gitjazzy/build/bme_gazebo_sensors
